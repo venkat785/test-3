@@ -1,0 +1,22 @@
+name: deploy3
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: name of the runner
+        required: true
+      name2:
+        description: optional
+        required: false
+
+jobs:
+  testing3
+    runs-on: ubuntu-latest
+    steps:
+      - name: print test3
+        run: echo "test3"
+      - name: shell commands
+        run: |
+          node -v
+          npm -v
