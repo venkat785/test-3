@@ -11,7 +11,7 @@ on:
         required: false
 
 jobs:
-  testing3
+  testing3:
     runs-on: ubuntu-latest
     steps:
       - name: print test3
