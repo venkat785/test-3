@@ -6,6 +6,7 @@ on:
       name:
         description: name of the runner
         required: true
+        default: "Venky"
       name2:
         description: optional
         required: false
